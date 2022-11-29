@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">System Update</string> 
+  <!--  changed --> 
+  <string name="permlab_showUI">Show UI for firmware update.</string> 
+  <string name="permdesc_shwoUI">Show UI for firmware update.</string> 
+  <!--  Firmware updating dialog strings  --> 
+  <string name="updating_title">Firmware Updating</string> 
+  <string name="updating_message_formate">A update package file is found : \'%1$s\'. Would you like to install the package?</string> 
+  <string name="updating_button_install">Install</string> 
+  <string name="updating_button_cancel">Cancel</string> 
+  <string name="updating_prompt">Checking the package! The Device is going to reboot...</string> 
+  <string name="updating_prompt_sdcard">Do NOT remove SD card from the device!</string> 
+  <!--  changed --> 
+  <!--  Invalid Firmware Image Activity (IFIA)--> 
+  <string name="IFIA_title">Invalid firmware image</string> 
+  <string name="IFIA_msg">Found an invalid firmware image file \'%1$s\'. Would you like to delete it?</string> 
+  <!--  changed --> 
+  <string name="IFIA_btn_yes">Yes</string> 
+  <string name="IFIA_btn_no">No</string> 
+  <!--  No Image Activity (NIA)--> 
+  <string name="NIA_title">No update image file</string> 
+  <string name="NIA_msg_format">There is no firmware image file in directory \'%1$s\' and \'%2$s\'!</string> 
+  <string name="NIA_btn_ok">OK</string> 
+  <string name="ask_delete_package">Do you want to delete the file? If not,the system may propose this update again.</string> 
+  <string name="update_success">Congratulation upgrade succeed!</string> 
+  <!--  changed --> 
+  <string name="update_failed">Firmware update failed!</string> 
+  <!--  changed --> 
+  <string name="state_idle">State: Idle</string> 
+  <string name="downloading">Downloading</string> 
+  <string name="ota_update">Find a OTA upgrade package! do you want to update? </string> 
+  <string name="ota_package_size">, size:</string> 
+  <string name="start">Start</string> 
+  <string name="starting">Starting</string> 
+  <string name="retry">Retry</string> 
+  <string name="pause">Pause</string> 
+  <string name="stoping">Stoping</string> 
+  <string name="cancel_update">Cancel Download</string> 
+  <!--  changed --> 
+  <string name="auto_check">Auto check update</string> 
+  <string name="check_now">Check now</string> 
+
+	
+  <string name="pb_title_downloading">Upgrade package is being downloaded</string>
+  <string name="pb_title_pause">Upgrade package is being paused</string>
+  <string name="remain_time">Remaining Time:</string>
+  <string name="current_new">The current version is the latest!</string>
+  <string name="error_display">Network error, please try again later!</string>
+  <string name="product_model">Product Model:</string>
+  <string name="current_version">Current Version:</string>
+
+  <string name="sd_head">sdcard fstype is: </string>
+  <string name="usb_head">usb storage fstype is: </string>
+  <string name="fat_warn"> ,please format it to fat</string>
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Update Sistem</string> 
+  <string name="permlab_showUI">Tampilkan UI untuk update firmware.</string> 
+  <string name="permdesc_shwoUI">Tampilkan UI untuk update firmware.</string> 
+  <!--  Firmware updating dialog strings--> 
+  <string name="updating_title">Proses Update Firmware</string> 
+  <string name="updating_message_formate">Paket file update ditemukan : \'%1$s\'. Apakah Anda ingin menginstal paket tersebut?</string> 
+  <string name="updating_button_install">Pasang</string> 
+  <string name="updating_button_cancel">Batalkan</string> 
+  <string name="updating_prompt">Saatnya cek paket! Perangkat akan reboot dan update firmware, harap selalu menjaga kabel USB atau power DC-in terhubung!</string> 
+  <string name="updating_prompt_sdcard">JANGAN mengeluarkan kartu SD dari perangkat!</string> 
+  <!--  Invalid Firmware Image Activity (IFIA)--> 
+  <string name="IFIA_title">Firmware image tidak valid</string> 
+  <string name="IFIA_msg">Ditemukan file image firmware tidak valid\'%1$s\'. Apakah Anda ingin menghapusnya?</string> 
+  <string name="IFIA_btn_yes">Iya</string> 
+  <string name="IFIA_btn_no">Tidak</string> 
+  <!--  No Image Activity (NIA)--> 
+  <string name="NIA_title">Tidak ada file update image</string> 
+  <string name="NIA_msg_format">Tidak ada file image firmware di direktori \'%1$s\' dan \'%2$s\'!</string> 
+  <string name="NIA_btn_ok">OK</string> 
+  <string name="ask_delete_package">Apakah anda ingin menghapus paket upgrade? Ini aman untuk menghapus. Jika tidak, sistem akan meminta anda untuk upgrade lagi, tentu saja hal ini tidak nyaman bagi anda!</string> 
+  <string name="update_success">Selamat upgrade telah berhasil!</string> 
+  <string name="update_failed">Maaf, update firmware gagal!</string> 
+  <string name="state_idle">Status: Idle</string> 
+  <string name="downloading">Mendownload</string> 
+  <string name="ota_update">Cari paket upgrade OTA! Anda ingin update?</string> 
+  <string name="ota_package_size">, ukuran:</string> 
+  <string name="start">Mulai</string> 
+  <string name="starting">Mulai</string> 
+  <string name="retry">Coba lagi</string> 
+  <string name="pause">Tunda</string> 
+  <string name="stoping">Hentikan</string> 
+  <string name="cancel_update">Batal Download</string> 
+  <string name="auto_check">Auto cek update</string> 
+  <string name="check_now">Cek sekarang</string> 
+	
+
+  <string name="pb_title_downloading">Paket upgrade sedang didownload</string>
+  <string name="pb_title_pause">Paket upgrade sedang berhenti</string>
+  <string name="remain_time">Sisa Waktu:</string>
+
+</resources>

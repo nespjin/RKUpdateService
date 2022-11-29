@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Actualización de sistema</string>
+  <!--  changed --> 
+  <string name="permlab_showUI">Mostrar IU de actualización de firmware.</string>
+  <string name="permdesc_shwoUI">Mostrar IU de actualización de firmware.</string> 
+  <!--  Firmware updating dialog strings  --> 
+  <string name="updating_title">Actualizando firmware.</string>
+    <string name="updating_message_formate">Se ha encontrado una actualización disponible: \'%1$s\'. ¿Quieres instalarla?</string>
+  <string name="updating_button_install">Instalar</string>
+  <string name="updating_button_cancel">Cancelar</string>
+  <string name="updating_prompt">Comprobando actualización. El dispositivo va a reiniciarse...</string>
+  <string name="updating_prompt_sdcard">No extraigas la SD del dispositivo</string>
+  <!--  changed --> 
+  <!--  Invalid Firmware Image Activity (IFIA)--> 
+  <string name="IFIA_title">Imagen de firmware no válida</string>
+  <string name="IFIA_msg">Se ha encontrado una imagen de firmware no válida \'%1$s\'. ¿Quieres eliminarla?</string>
+  <!--  changed --> 
+  <string name="IFIA_btn_yes">Si</string>
+  <string name="IFIA_btn_no">No</string> 
+  <!--  No Image Activity (NIA)--> 
+  <string name="NIA_title">No se ha encontrado ninguna imagen</string>
+  <string name="NIA_msg_format">No se ha encontrad ninguna imagen de firmware en el directorio \'%1$s\' ni \'%2$s\'!</string>
+  <string name="NIA_btn_ok">OK</string> 
+  <string name="ask_delete_package">¿Quieres borrar el archivo? Si no lo eliminas, el sistema sugerirá la actualización de nuevo más tarde.</string>
+  <string name="update_success">Actualización finalizada con éxito.</string>
+  <!--  changed --> 
+  <string name="update_failed">Hubo un error durante la actualización.</string>
+  <!--  changed --> 
+  <string name="state_idle">Estado: En espera</string>
+  <string name="downloading">Descargando</string>
+  <string name="ota_update">Se encontro una actualización OTA disponible. ¿Quieres actualizar?</string>
+  <string name="ota_package_size">, tamaño:</string>
+  <string name="start">Comenzar</string>
+  <string name="starting">Comenzando</string>
+  <string name="retry">Reintentar</string>
+  <string name="pause">Parar</string>
+  <string name="stoping">Parando</string>
+  <string name="cancel_update">Cancelar Descarga</string>
+  <!--  changed --> 
+  <string name="auto_check">Comprobar automáticamente</string>
+  <string name="check_now">Comprobar ahora</string>
+
+	
+  <string name="pb_title_downloading">La actualización se está descargando</string>
+  <string name="pb_title_pause">La actualización se ha detenido</string>
+  <string name="remain_time">Tiempo restante:</string>
+</resources>
